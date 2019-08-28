@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>True And Safe - Enterprise Process Solutions</title>
+        <!-- Start Header styles -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css" integrity="sha256-27KRQA6ck6EiKWEkCpHR2NcEeAYnqz8Q5a83PYHh1z0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha256-VBrFgheoreGl4pKmWgZh3J23pJrhNlSUOBek+8Z2Gv0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha256-PZLhE6wwMbg4AB3d35ZdBF9HD/dI/y4RazA3iRDurss=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" integrity="sha256-AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/index.css">
+        <!-- End Header styles-->
+
+        <!--Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap&subset=latin-ext" rel="stylesheet">
+        
+    </head>
+    <body class='theme-light'>
+        <!-- Start Loader -->
+        <div class='loading'>
+          <div class='loader'>
+            <img class='loader-img' src='images/loader_blue.svg'>
+            <span>
+              Loading...
+            </span>
+          </div>
+        </div>
+        <!-- End Loader -->
+        
+        <!-- Start Header -->
+        <header class='page-header' id='page-header'>
+          <div class='container-full'>
+            <div class='navbar-header'>
+              <!-- Logo -->
+              <a class='logo animated onstart' data-animation-delay='200' data-animation='fadeInDown' href='#welcome'>
+                <span class='logo-letter'>T</span>
+                rue 
+                <span class='logo-letter'>A</span>
+                nd
+                <span class='logo-letter'>S</span>
+                afe
+              </a>
+            </div>
+            
+            <!--<div class='nvabar-right'>
+              <a class='btn btn-rounded btn-gradient-primary js-link-content animated onstart' data-animation-delay='300' data-animation='fadeInDown' href='#subscribe-form'>
+                Notify Me
+              </a>
+            </div>-->
+          </div>
+        </header>
+        <!-- End Header -->
+        <!-- Sidebar navigation -->
+        <nav class='sidebar-nav sidebar-rounded' id='sidebar-nav'>
+          <ul>
+            <li>
+              <a href='#welcome'>
+                <span class='nav-dot'></span>
+                <span class='nav-label'>
+                  Home
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href='#about'>
+                <span class='nav-dot'></span>
+                <span class='nav-label'>
+                  About Us
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href='#services'>
+                <span class='nav-dot'></span>
+                <span class='nav-label'>
+                  Services
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href='#contacts'>
+                <span class='nav-dot'></span>
+                <span class='nav-label'>
+                  Contacts
+                </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+        
+        <canvas class='bg-particles' id='bg-bubbles'></canvas>
+        
+        <div class='page-wrap' id='fullpage'>
+          
+          <!-- Start Welcome -->
+          <section class='welcome section-content section'>
+            <div class='row content'>
+              <div class='col-12 col-sm-6 full-height-block'>
+                <div class='full-height-block-content'>
+                  <div class='animated onstart' data-animation-delay='0' data-animation='fadeInUp'>
+                    <h1 class='section-title'>
+                      We are <span class="highlight f-bold">coming</span> soon
+                    </h1>
+                    <span class='divider-h-sm'></span>
+                  </div>
+                  <div class='onstart animated text-left' data-animation-delay='100' data-animation='fadeInUp' id='clock'></div>
+                  <div class='mg-t'>
+                    <a class='btn btn-outline btn-lg btn-rounded js-to-slide animated onstart' data-animation-delay='400' data-animation='fadeInUp' data-slide='2' href='#'>
+                      Learn more
+                      <i class='fa fa-angle-down'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class='col-12 col-sm-6 full-height-block background-parallax bg-image-8'>
+                <div class='overlay light'></div>
+                <div class='full-height-block-content'></div>
+              </div>
+            </div>
+          </section>
+          <!-- End Welcome -->
+          
+          <!-- Start About -->
+          <section class='about section'>
+            <div class='row content'>
+              <div class='col-12 col-sm-6 full-height-block'>
+                <div class='full-height-block-content'>
+                  <div class='hero-content animated' data-animation-delay='0' data-animation='fadeInUp'>
+                    <h1 class='section-title text-left'>
+                      About Us
+                    </h1>
+                    <span class='divider-h-sm'></span>
+                  </div>
+                  <div class='mg-b'>
+                    <div class='animated' data-animation-delay='100' data-animation='fadeInUp'>
+                      <p>
+                        We are a provider of business process solutions focused on solutions and products in the cloud that adapt to the personality and needs of the company.                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='col-12 col-sm-6 full-height-block background-parallax bg-image-2'>
+                <div class='overlay light'></div>
+                <div class='full-height-block-content'></div>
+              </div>
+            </div>
+          </section>
+          <!-- End About -->
+          
+          <!-- Start Services -->
+          <section class='services section background-parallax section-no-space color-white'>
+            <div class='owl-carousel full-page-carousel owl-theme'>
+              <div class='item bg-white color-dark'>
+                <div class='carousel-item-inner js-vertical-middle text-center'>
+                  <h1 class='section-title'>
+                    Services
+                  </h1>
+                </div>
+              </div>
+              <div class='item bg-image-4'>
+                <div class='overlay'></div>
+                <div class='carousel-item-inner js-vertical-middle'>
+                  <div class='text-center'>
+                    <div class='mg-b'>
+                      <i class='fa fa-line-chart ico-box icon-box-lg'></i>
+                      <h3 class='f-thin'>
+                        Agile
+                      </h3>
+                      <p>
+                        Agility in the process of developing solutions, this translates into a true and safe delivery of results
+                      </p>
+                    </div>
+                    <a class='btn btn-outline' href='#contact-form'>
+                      More Details
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class='item color-dark bg-white'>
+                <div class='carousel-item-inner js-vertical-middle'>
+                  <div class='text-center'>
+                    <div class='mg-b'>
+                      <i class='fa fa-globe ico-box icon-box-lg'></i>
+                      <h3 class='f-thin'>
+                        World Wide
+                      </h3>
+                      <p>
+                        Data redundancy, high availability and ability to deploy global solutions through the cloud
+                      </p>
+                    </div>
+                    <a class='btn btn-outline-dark' href='#contact-form'>
+                      More Details
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class='item bg-image-8'>
+                <div class='overlay'></div>
+                <div class='carousel-item-inner js-vertical-middle'>
+                  <div class='text-center'>
+                    <div class='mg-b'>
+                      <i class='fa fa-support ico-box icon-box-lg'></i>
+                      <h3 class='f-thin'>
+                        Managed IT solutions 
+                      </h3>
+                      <p>
+                        Managed IT solutions allowing us to provide a solution to the inconveniences before they affect the business
+                      </p>
+                    </div>
+                    <a class='btn btn-outline' href='#contact-form'>
+                      More Details
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class='item bg-image-5'>
+                <div class='overlay'></div>
+                <div class='carousel-item-inner js-vertical-middle'>
+                  <div class='text-center'>
+                    <div class='mg-b'>
+                      <i class='fa fa-file-o ico-box icon-box-lg'></i>
+                      <h3 class='f-thin'>
+                        Files
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consequuntur eum enim commodi, minima
+                      </p>
+                    </div>
+                    <a class='btn btn-outline' href='#contact-form'>
+                      More Details
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Custom Navigation -->
+            <div class='owl-carousel-nav'>
+              <div class='owl-btn prev'>
+                <i class='fa fa-chevron-left'></i>
+              </div>
+              <div class='owl-btn next'>
+                <i class='fa fa-chevron-right'></i>
+              </div>
+            </div>
+          </section>
+          <!-- End Services -->
+          
+          <!-- Start Contacts -->
+          <section class='section-content contacts section'>
+            <div class='row content'>
+              <div class='col-12 col-sm-6 full-height-block'>
+                <div class='full-height-block-content'>
+                  <div>
+                    <h1 class='section-title animated' data-animation-delay='100' data-animation='fadeInUp'>
+                      Get in touch
+                    </h1>
+                    <span class='divider-h-sm animated' data-animation-delay='50' data-animation='fadeInUp'></span>
+                  </div>
+                  <div class='row'>
+                    <div class='col-12 col-lg-8'>
+                      <form action="https://formspree.io/ernesto@cobos.xyz" method="POST" class='mg-b' id='contact-form'>
+                        <div class='form-wrap'>
+                          <div class='form-group animated' data-animation-delay='0' data-animation='fadeInUp'>
+                            <input class='form-control form-control-rounded' id='contact-form-name' name='name' placeholder='Name' type='text'>
+                          </div>
+                          <div class='form-group animated' data-animation-delay='150' data-animation='fadeInUp'>
+                            <input class='form-control form-control-rounded' id='contact-form-email_contact-form-email' name='email' placeholder='Email' type='text'>
+                          </div>
+                          <div class='form-group animated' data-animation-delay='50' data-animation='fadeInUp'>
+                            <textarea class='form-control form-control-rounded' cols='30' id='contact-form-message' name='message' placeholder='Message' rows='5'></textarea>
+                          </div>
+                          <div class='form-group mg-t'>
+                            <button class='btn btn-gradient-primary btn-rounded btn-lg btn-submit animated' data-animation-delay='350' data-animation='fadeInUp' type='submit'>
+                              Send Message
+                              <i class='fa fa-paper-plane'></i>
+                            </button>
+                          </div>
+                        </div>
+                        <div class='mgs'>
+                          <div class='success-message'>
+                            <i class='fa fa-check'></i>
+                            Your message has been sent successfully.
+                          </div>
+                          <div class='error-message'>
+                            <i class='fa fa-warning'></i>
+                            E-mail must be valid
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='col-12 col-sm-6 full-height-block background-parallax bg-image-5'>
+                <div class='overlay light'></div>
+                <div class='full-height-block-content'></div>
+              </div>
+            </div>
+          </section>
+          <!-- End Contacts -->
+          
+        </div>
+        <!-- Start Gallery -->
+        <div class='js-gallery'>
+          <!-- Gallery -->
+          <div class='gallery-slide' id='gallery'>
+            <a class='gallery-item' href='images/backgrounds/bg-1.jpg' title='Title for picture #1'></a>
+            <a class='gallery-item' href='images/backgrounds/bg-2.jpg' title='Title for picture #2'></a>
+            <a class='gallery-item' href='images/backgrounds/bg-3.jpg' title='Title for picture #3'></a>
+            <a class='gallery-item' href='images/backgrounds/bg-4.jpg' title='Title for picture #4'></a>
+            <a class='gallery-item' href='images/backgrounds/bg-5.jpg' title='Title for picture #5'></a>
+            <a class='gallery-item' href='images/backgrounds/bg-6.jpg' title='Title for picture #6'></a>
+            <a class='gallery-item' href='images/backgrounds/bg-7.jpg' title='Title for picture #7'></a>
+            <a class='gallery-item' href='images/backgrounds/bg-8.jpg' title='Title for picture #8'></a>
+          </div>
+          <!-- End Gallery -->
+        </div>
+        <!-- End Gallery -->
+        
+        <!-- Start Footer -->
+        <footer class='page-footer'>
+          <div class='container-full'>
+            <div class='row'>
+              <div class='col-sm-5'>
+                <!-- Social navigation -->
+                <div class='social-nav'>
+                  <ul>
+                    <li class='animated onstart' data-animation-delay='800' data-animation='fadeInUp' href='#'>
+                      <a data-placement='top' data-toggle='tooltip' href='mail.to:hello@trueandsafe.com' title='Mail us'>
+                        <i class='fa fa-paper-plane'></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End Social navigation -->
+                
+                <div class='copyright-wrapper'>
+                  <div class='copyright animated onstart' data-animation-delay='1200' data-animation='fadeInUp' href='#'>
+                    © 2019
+                    <a href='https://www.trueandsafe.com' target='_blank'>True And Safe</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- End Footer -->
+        
+        <!-- Start Subscribe -->
+        <div class='mfp-hide white-popup small-popup bg-image-1 border-radius-mid' id='subscribe-form'>
+          <div class='overlay'></div>
+          <div class='content'>
+            <h1 class='section-title'>
+              Subscribe
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias numquam sint aliquam rem, quis beatae, dolorum totam provident laboriosam
+            </p>
+            <form action='#' class='mailchimp-form subscribe-form-wrap'>
+              <div class='input-group input-group-roundend'>
+                <input class='form-control' name='email' placeholder='Your email' type='email'>
+                <div class='input-group-btn'>
+                  <button class='btn btn-outline btn-inverse' type='submit'>
+                    Send
+                    <i class='fa fa-angle-right'></i>
+                  </button>
+                </div>
+              </div>
+              <p class='error-message'></p>
+              <p class='success-message'></p>
+            </form>
+          </div>
+        </div>
+        <!-- End Subscribe -->
+        
+        <!-- Start Scripts -->
+        <script src="js/jquery-3.4.0.min.js"></script>
+        
+        <script src="js/jquery.easing.1.3.js"></script>
+        
+        <!-- Bootsrap plugins -->
+        <script src="js/bootstrap.bundle.js"></script>
+        
+        <!-- Countdown -->
+        <script src="js/jquery.countdown.js"></script>
+        
+        <!-- OwlCarousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        
+        <!-- Youtube player -->
+        <script src="js/jquery.mb.YTPlayer.js"></script>
+        
+        <!-- Others -->
+        <script src="js/jquery.fullPage.min.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        
+        <!-- Mailchimp -->
+        <script src="js/jquery.ajaxchimp.js"></script>
+        
+        <!-- Moment -->
+        <script src="js/moment.js"></script>
+        <!-- Magnific popup -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        
+        <!-- Main -->
+        <script src="js/main.js"></script>
+        <!-- End Scripts -->
+        
+        <!-- Bubbles -->
+        <script src="js/backgrounds/bubbles.js"></script>
+      </body>
+</html>
